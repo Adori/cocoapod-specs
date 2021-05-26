@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
         :text => 'Copyright (c) 2021 Adori Labs Private Limited. All rights reserved.'
     }
     s.author       = { 'Adori Labs' => 'support@adorilabs.com' }
-    s.source       = { :http    => 'https://storage.googleapis.com/adori-ios-sdk-files/Adori_iOS_SDK.zip'
+    s.source       = { :http    => 'https://storage.googleapis.com/adori-ios-sdk-files/Adori_iOS_SDK_2_0_0.zip'
     }
     s.vendored_frameworks = 'AdoriAPIService.xcframework', 'AdoriAudioPlayer.xcframework', 'AdoriDecoder.xcframework', 'AdoriPlayerUI.xcframework','AdoriTagsUI.xcframework', 'DLRadioButton.xcframework', 'FBLPromises.xcframework','GoogleUtilities.xcframework', 'MaterialComponents.xcframework', 'MDFInternationalization.xcframework', 'MDFTextAccessibility.xcframework', 'nanopb.xccframework', 'UBottomSheet.xcframework'
 end
