@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
     s.author       = { 'Adori Labs' => 'support@adorilabs.com' }
     s.source       = { :http    => 'https://storage.googleapis.com/adori-ios-sdk-files/Adori_iOS_SDK_2_1_4.zip'
     }
-    s.vendored_frameworks = 'AdoriAPIService.xcframework', 'AdoriAudioPlayer.xcframework', 'AdoriDecoder.xcframework', 'AdoriPlayerUI.xcframework','AdoriTagsUI.xcframework', 'Cache.xcframework', 'DLRadioButton.xcframework', 'MaterialComponents.xcframework', 'MDFInternationalization.xcframework', 'MDFTextAccessibility.xcframework', 'nanopb.xccframework', 'UBottomSheet.xcframework'
+    s.vendored_frameworks = 'AdoriAPIService.xcframework', 'AdoriAudioPlayer.xcframework', 'AdoriDecoder.xcframework', 'AdoriPlayerUI.xcframework','AdoriTagsUI.xcframework', 'Cache.xcframework', 'DLRadioButton.xcframework', 'MaterialComponents.xcframework', 'MDFInternationalization.xcframework', 'MDFTextAccessibility.xcframework', 'nanopb.xccframework', 'UBottomSheet.xcframework', 'GoogleMobileAds.xcframework'
 end
