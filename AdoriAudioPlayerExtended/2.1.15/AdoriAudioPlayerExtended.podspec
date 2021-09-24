@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
         :text => 'Copyright (c) 2021 Adori Labs Private Limited. All rights reserved.'
     }
     s.author       = { 'Adori Labs' => 'support@adorilabs.com' }
-    s.source       = { :http    => 'https://storage.googleapis.com/adori-ios-sdk-files/
-Adori_AudioPlayerExtended_2.1.15.zip'
+    s.source       = { :http    => 'https://storage.googleapis.com/adori-ios-sdk-files/Adori_AudioPlayerExtended_2.1.15.zip'
     }
     s.vendored_frameworks = 'AdoriAudioPlayerExtended.xcframework'
 end
