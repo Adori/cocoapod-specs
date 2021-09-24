@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
     s.summary      = "Adori Audio Player Extended SDK"
     s.description  = "Adori Audio Player Extended provides to consume and play interactive episodes in your podcast application"
     s.homepage     = "https://www.adorilabs.com"
-    s.platform     = :ios, '13.0'
+    s.platform     = { :ios => "13.0", :watchos => "6.0" }
     s.license      = {
         :type => 'Commercial',
         :text => 'Copyright (c) 2021 Adori Labs Private Limited. All rights reserved.'
